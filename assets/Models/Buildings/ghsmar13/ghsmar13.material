@@ -1,0 +1,281 @@
+material Wood_Cherry_Original
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Wood_Cherry_Original.jpg
+         }
+      }
+   }
+}
+
+material [Metal_Aluminum_Anodized]1
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Aluminum_Anodized.jpg
+         }
+      }
+   }
+}
+
+material Stone_Brushed_Khaki
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Stone_Brushed_Khaki.jpg
+         }
+      }
+   }
+}
+
+material Tile_Limestone_Multi
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Tile_Limestone_Multi.jpg
+         }
+      }
+   }
+}
+
+material Material3
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture sablanRm.jpg
+         }
+      }
+   }
+}
+
+material Color_000
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.858823529411765 0.858823529411765 0.858823529411765 1.0
+         ambient 0.858823529411765 0.858823529411765 0.858823529411765 1.0
+      }
+   }
+}
+
+material Material6
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture sablanBoard.png
+         }
+      }
+   }
+}
+
+material [Tile_Navy]1
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Tile_Navy.jpg
+         }
+      }
+   }
+}
+
+material 0135_DarkGray
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.317647058823529 0.317647058823529 0.317647058823529 1.0
+         ambient 0.317647058823529 0.317647058823529 0.317647058823529 1.0
+      }
+   }
+}
+
+material Color_009
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.0 0.0 1.0
+         ambient 0.0 0.0 0.0 1.0
+      }
+   }
+}
+
+material Material4
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture girlBRsign.png
+         }
+      }
+   }
+}
+
+material Metal_Aluminum_Anodized
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Aluminum_Anodized.jpg
+         }
+      }
+   }
+}
+
+material GHSDarkGreen
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture green.png
+         }
+      }
+   }
+}
+
+material Material5
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture beigeFlTile.png
+         }
+      }
+   }
+}
+
+material Translucent_Glass_Blue
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         diffuse 0.392156862745098 0.584313725490196 0.929411764705882 0.5
+         ambient 0.392156862745098 0.584313725490196 0.929411764705882 0.5
+      }
+   }
+}
+
+material [Metal_Aluminum_Anodized]2
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Metal_Aluminum_Anodized.jpg
+         }
+      }
+   }
+}
+
+material rasterYellow
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Material1.jpg
+         }
+      }
+   }
+}
+
+material 0020_Red
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 0.0 0.0 1.0
+         ambient 1.0 0.0 0.0 1.0
+      }
+   }
+}
+
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}
+
+material SketchupDefault_Back
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.670588235294118 0.690196078431373 0.8
+         ambient 0.670588235294118 0.690196078431373 0.8
+      }
+   }
+}

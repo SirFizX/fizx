@@ -1,0 +1,332 @@
+material Material12
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture GHS_Logo-jpeg.JPG
+         }
+      }
+   }
+}
+
+material Translucent_Glass_Blue
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         diffuse 0.392156862745098 0.584313725490196 0.929411764705882 0.5
+         ambient 0.392156862745098 0.584313725490196 0.929411764705882 0.5
+      }
+   }
+}
+
+material Material15
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 10.png
+         }
+      }
+   }
+}
+
+material Material7
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 30m.png
+         }
+      }
+   }
+}
+
+material Material19
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 25b.png
+         }
+      }
+   }
+}
+
+material Material2
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 5m.png
+         }
+      }
+   }
+}
+
+material Material8
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 35m.png
+         }
+      }
+   }
+}
+
+material Material4
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 15m.png
+         }
+      }
+   }
+}
+
+material Material17
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 20.png
+         }
+      }
+   }
+}
+
+material Color_I11
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.0 0.349019607843137 1.0
+         ambient 0.0 0.0 0.349019607843137 1.0
+      }
+   }
+}
+
+material Material11
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 50m.png
+         }
+      }
+   }
+}
+
+material Material10
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 45m.png
+         }
+      }
+   }
+}
+
+material Sketchy_Lines_Wavy_Vertical
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture Sketchy_Lines_Wavy_Vertical.jpg
+         }
+      }
+   }
+}
+
+material Material5
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 20m.png
+         }
+      }
+   }
+}
+
+material Material18
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 25.png
+         }
+      }
+   }
+}
+
+material Material16
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 15.png
+         }
+      }
+   }
+}
+
+material Material14
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 5.png
+         }
+      }
+   }
+}
+
+material Color_D03
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.647058823529412 0.509803921568627 0.180392156862745 1.0
+         ambient 0.647058823529412 0.509803921568627 0.180392156862745 1.0
+      }
+   }
+}
+
+material Material9
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 40m.png
+         }
+      }
+   }
+}
+
+material Material6
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 25m.png
+         }
+      }
+   }
+}
+
+material Material3
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1 1 1 1.0
+         texture_unit
+         {
+            texture 10m.png
+         }
+      }
+   }
+}
+
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}
+
+material SketchupDefault_Back
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.670588235294118 0.690196078431373 0.8
+         ambient 0.670588235294118 0.690196078431373 0.8
+      }
+   }
+}

@@ -1,0 +1,60 @@
+<mesh>
+   <submeshes>
+      <submesh material = "SketchupDefault" usesharedvertices="false" use32bitindexes="false">
+         <faces count="2">
+            <face v1="0" v2="1" v3="2" />
+            <face v1="1" v2="0" v3="3" />
+         </faces>
+         <geometry vertexcount="4">
+            <vertexbuffer positions="true" normals="true" colours_diffuse="false"  >
+               <vertex>
+                  <position x="504.405651407276" y="0.0" z="-571.918156686552" />
+                  <normal x="0.0" y="-1.0" z="-0.0" />
+               </vertex>
+               <vertex>
+                  <position x="-504.405651407276" y="0.0" z="571.918156686552" />
+                  <normal x="0.0" y="-1.0" z="-0.0" />
+               </vertex>
+               <vertex>
+                  <position x="-504.405651407276" y="0.0" z="-571.918156686552" />
+                  <normal x="0.0" y="-1.0" z="-0.0" />
+               </vertex>
+               <vertex>
+                  <position x="504.405651407276" y="0.0" z="571.918156686552" />
+                  <normal x="0.0" y="-1.0" z="-0.0" />
+               </vertex>
+            </vertexbuffer>
+         </geometry>
+      </submesh>
+      <submesh material = "Wood_Floor_Dark" usesharedvertices="false" use32bitindexes="false">
+         <faces count="2">
+            <face v1="1" v2="0" v3="2" />
+            <face v1="0" v2="1" v3="3" />
+         </faces>
+         <geometry vertexcount="4">
+            <vertexbuffer positions="true" normals="true" colours_diffuse="false" texture_coords="1" texture_coord_dimensions_0="2" >
+               <vertex>
+                  <position x="504.405651407276" y="0.0" z="-571.918156686552" />
+                  <normal x="-0.0" y="1.0" z="0.0" />
+                  <texcoord u="-165.487418440707" v="-468.092976284902" />
+               </vertex>
+               <vertex>
+                  <position x="-504.405651407276" y="0.0" z="571.918156686552" />
+                  <normal x="-0.0" y="1.0" z="0.0" />
+                  <texcoord u="165.487418440708" v="470.092976284902" />
+               </vertex>
+               <vertex>
+                  <position x="-504.405651407276" y="0.0" z="-571.918156686552" />
+                  <normal x="-0.0" y="1.0" z="0.0" />
+                  <texcoord u="165.487418440708" v="-468.092976284902" />
+               </vertex>
+               <vertex>
+                  <position x="504.405651407276" y="0.0" z="571.918156686552" />
+                  <normal x="-0.0" y="1.0" z="0.0" />
+                  <texcoord u="-165.487418440707" v="470.092976284902" />
+               </vertex>
+            </vertexbuffer>
+         </geometry>
+      </submesh>
+   </submeshes>
+</mesh>
